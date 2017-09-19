@@ -12,7 +12,7 @@ function hideForm(){
 }
 
 function toggle(){
-if (formInfo.style.display = 'block;') {
+if (formInfo.style.display == 'block') {
   hideForm();
 } else {
   showForm();
